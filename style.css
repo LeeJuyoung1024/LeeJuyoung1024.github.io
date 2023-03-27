@@ -1,0 +1,24 @@
+h1 {
+    color: brown;
+}
+
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+
+.container {
+    background-color: beige;
+}
+
+div {
+    text-align: center;
+}
+
+ul {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+  }
