@@ -1,0 +1,86 @@
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+.first {
+    width: 500px;
+    height: 300px;
+}
+
+.parent {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    font-family: 'Gamja Flower', cursive;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: center;
+}
+
+.first {
+    background-image: url(./me.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    margin: auto;
+    /* float: left;
+    margin-left: 5%;
+    width:30%;
+    box-sizing: border-box; */
+}
+
+.intro {
+    background-color: ivory;
+}
+
+ul {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    background-color: rgba(69, 146, 235, 0.15)
+}
+
+th,
+td {
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #000;
+
+    vertical-align: top;
+    /* 위 */
+    vertical-align: bottom;
+    /* 아래 */
+    vertical-align: middle;
+    /* 가운데 */
+}
+
+.like header {
+    margin-top: 100px;
+    background-color: ivory;
+}
+
+.like-img img {
+    width: 150px;
+    height: 150px;
+    transform: scale(1.0);
+    transition: all 0.3s ease-in-out;
+}
+
+.like-img img:hover {
+    transform: scale(1.4);
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    z-index: 1;
+}
